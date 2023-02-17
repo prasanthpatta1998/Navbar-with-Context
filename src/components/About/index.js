@@ -9,8 +9,8 @@ const About = () => (
       const {isDarkTheme} = value
 
       const homeBackground = isDarkTheme
-        ? 'home-background'
-        : 'dark-home-background'
+        ? 'dark-home-background'
+        : 'home-background'
 
       const homeColor = isDarkTheme ? 'dark-heading' : 'heading'
       return (
@@ -20,7 +20,7 @@ const About = () => (
             {isDarkTheme ? (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/about-dark-img.png"
-                alt="theme"
+                alt="home"
                 className="home-image"
               />
             ) : (

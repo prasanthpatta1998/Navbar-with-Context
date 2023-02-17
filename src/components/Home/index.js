@@ -9,8 +9,8 @@ const Home = () => (
       const {isDarkTheme} = value
 
       const homeBackground = isDarkTheme
-        ? 'home-background'
-        : 'dark-home-background'
+        ? 'dark-home-background'
+        : 'home-background'
 
       const homeColor = isDarkTheme ? 'dark-heading' : 'heading'
 
@@ -21,7 +21,7 @@ const Home = () => (
             {isDarkTheme ? (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/home-dark-img.png"
-                alt="theme"
+                alt="home"
                 className="home-image"
               />
             ) : (

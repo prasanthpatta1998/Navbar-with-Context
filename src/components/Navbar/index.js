@@ -45,13 +45,13 @@ const Navbar = () => (
             {isDarkTheme ? (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/light-theme-img.png"
-                alt="home"
+                alt="theme"
                 className="navbar-image"
               />
             ) : (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/dark-theme-img.png"
-                alt="home"
+                alt="theme"
                 className="navbar-image"
               />
             )}
