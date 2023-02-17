@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 71px;
+}
+
+.dark-header-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 71px;
+  background-color: #333333;
+}
+
+.navbar-image {
+  height: 40px;
+}
+
+.image-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0px;
+}
+
+.dark-li-item {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.li-item {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #000000;
+  font-weight: 800;
+}
+
+.ul-items {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}

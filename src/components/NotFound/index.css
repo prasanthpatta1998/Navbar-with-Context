@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.para-color {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+.light-para-color {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.not-found-image {
+  height: 400px;
+}
