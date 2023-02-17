@@ -20,7 +20,7 @@ const About = () => (
             {isDarkTheme ? (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/about-dark-img.png"
-                alt="home"
+                alt="about"
                 className="home-image"
               />
             ) : (
